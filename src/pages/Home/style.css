@@ -1,0 +1,83 @@
+.content {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.info { 
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    color: #fff;
+    min-width: 250px;
+    margin-right: 12px;
+    width: 80%;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    background: #2d333b;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.shape {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #e5e5e5;
+    margin-right: 32px;
+}
+
+.shape h3{
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.shape span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.shape p {
+    color: #999999;
+    font-size: px;
+    margin: 20px 0 0 0;
+}
+
+.repositories {
+    font-size: 32px;
+    color: #fff;
+    margin: 12px 0;
+    text-align: center;
+}
